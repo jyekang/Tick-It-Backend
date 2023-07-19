@@ -6,6 +6,7 @@ class Venue(models.Model):
     location = models.TextField()
     capacity = models.PositiveIntegerField()
     website_url = models.TextField()
+    image_url = models.TextField(null=True)
 
     def __str__(self):
         return self.name
@@ -17,6 +18,7 @@ class Event(models.Model):
     ticket_price = models.PositiveIntegerField()
     city = models.CharField(max_length=200)
     state = models.CharField(max_length=200)
+    image_url = models.TextField(null=True)
     venue = models.ForeignKey(Venue, on_delete=models.CASCADE, related_name='events')
 
     def __str__(self):
