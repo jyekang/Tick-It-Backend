@@ -8,9 +8,9 @@ psycopg2-binary = "*"
 djangorestframework = "*"
 django-cors-headers = "*"
 pipinstall = "*"
-django = "===4.0"
 gunicorn = "*"
 whitenoise = "*"
+django = "==4.0"
 
 [dev-packages]
 

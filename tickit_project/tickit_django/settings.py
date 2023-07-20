@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+g4t-1g1_!a$txpc8xf+i=%8ag8uu_qng86(ko*^i@lx_547_u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'tickit',
     'rest_framework',
-    'corsheaders'
+    'corsheaders',
 ]
 
 REST_FRAMEWORK = {
