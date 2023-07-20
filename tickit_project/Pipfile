@@ -9,6 +9,8 @@ djangorestframework = "*"
 django-cors-headers = "*"
 pipinstall = "*"
 django = "===4.0"
+gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 
