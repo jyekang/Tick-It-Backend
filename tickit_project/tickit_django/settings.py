@@ -101,10 +101,10 @@ WSGI_APPLICATION = 'tickit_django.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tickit',
-        'USER': 'tickituser',
-        'PASSWORD': 'tickit',
-        'HOST': 'localhost'
+        'NAME': 'glesvqzh',
+        'USER': 'glesvqzh',
+        'PASSWORD': '1H_onK2NLynT3AB7EdBWDqBN1jVreCer',
+        'HOST': 'hansken.db.elephantsql.com'
     }
 }
 
