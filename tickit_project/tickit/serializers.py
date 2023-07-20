@@ -32,3 +32,4 @@ class VenueSerializer(serializers.HyperlinkedModelSerializer):
        fields = ('id', 'venue_url', 'name', 'location', 'capacity', 'website_url', 'events', 'image_url')
 
 
+# test
